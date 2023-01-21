@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Assets/Styles/stylesRegister.css" />
+    <script src="./Assets/Scripts/getData.js"></script>
   </head>
 
   <body>
@@ -12,9 +13,10 @@
       <ul>
         <li class="nav"><a href="index.html">Home</a></li>
         <li class="nav"><a href="loginPage.html">Login</a></li>
-        <li class="nav"><a href="">Share Sales</a></li>
+        <li class="nav"><a href="shareSales.html">Share Sales</a></li>
         <li class="nav"><a href="map.html">Find Sales</a></li>
         <li class="nav"><a href=" ">Settings</a></li>
+        <li class="nav"><a href="registrationPage.html">Register</a></li>
       </ul>
     </div>
 
@@ -42,9 +44,11 @@
                     <div class="dropdown">
                        <button class="dropbtn">Select a store</button> 
                        <div class="dropdown-content">
-                        <a href="#">Metro</a>
-                        <a href="#">Loblaws</a>
-                        <a href="#">Food Basics</a>
+                        <a onClick ="changeText1('Metro')" id="metro" href="#">Downtown Metro</a>
+                        <a onClick ="changeText1('Costco')" id="costco" href="#">Costco</a>
+                        <a onClick ="changeText1('Loblaws')" id="loblaws" href="#">Loblaws</a>
+                        <a onClick ="changeText1('Food Basics')" id="foodbasics" href="#">Food Basics</a>
+                        <a onClick ="changeText1('Giant Tiger')" id="gianttiger" href="#">Giant Tiger</a>
                       </div>
                     </div>
             </div>
@@ -62,10 +66,10 @@
                         <h4>Was this a sale?</h3>
                     </div>
     
-                    <input type="text" id="password" placeholder="Yes/No" />
+                    <input type="text" id="sale" placeholder="Yes/No" />
                     </div>
 
-                <div class="signUpButton">
+                <div class="signUpButton" id="shareButton">
                     <button>Share Now</button>
                 </div>
                 
@@ -74,6 +78,14 @@
       </div>
     
   </body>
+  <script>
+
+
+        
+
+
+
+  </script>
 </html>
 
 <!--
