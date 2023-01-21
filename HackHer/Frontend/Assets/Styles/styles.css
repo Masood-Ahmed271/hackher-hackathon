@@ -71,12 +71,18 @@ input[type="submit" i] {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: rgb(255, 255, 255);
+    cursor: grab;
+}
+
+input[type="submit" i]:hover{
+    background-color: #000814;
 }
 
 label {
     font-family: 'Roboto', sans-serif;
     color: #001d3d;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 form {
@@ -86,18 +92,19 @@ form {
 input[type="text" i] {
     background-color: #F0EEEE;
     padding: 1px 2px;
+    font-size: 14px;
 }
 
 input {
     writing-mode: horizontal-tb !important;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-rendering:inherit;
     color: #001d3d;
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
     text-shadow: none;
     display: inline-block;
     text-align: start;
@@ -193,6 +200,10 @@ div.menu h2{
   }
 
   @media (max-width: 600px) {
+    div.button {
+        height: 35px;
+        width: 175px;
+    }
     div.menu{
         width: 80vw;
         height: 30vh;
