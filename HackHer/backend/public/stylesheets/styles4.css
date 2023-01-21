@@ -92,7 +92,10 @@ form {
 input[type="text" i] {
   background-color: #F0EEEE;
   padding: 1px 2px;
-  font-size: 14px;
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items:center; 
 }
 
 input {
@@ -123,6 +126,8 @@ div.button{
   background-color: #3a0ca3;
   border-radius: 100px;
   margin-top: 20px;
+  margin-left: 25vw;
+  margin-right: 25vw;
   display: flex;
   justify-content: center;
   text-align: center;
