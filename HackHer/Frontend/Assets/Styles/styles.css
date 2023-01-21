@@ -3,6 +3,8 @@
   }
  /* BODY */
  body{
+    background: url("background.jpeg") no-repeat center center fixed;
+    background-size: cover;
     background-color: #F5F5F5;
  }
 
@@ -11,6 +13,13 @@
 
 h1{
     font-family: 'Roboto', sans-serif;
+    color: #001d3d;
+    font-size: 25px;
+ }
+ h2{
+    font-family: 'Roboto', sans-serif;
+    color: #001d3d;
+    font-size: 25px;
  }
 h4{
     font-family: 'Roboto', sans-serif;
@@ -24,10 +33,10 @@ div.container{
 div.menu{
     height: 300px;
     width: 500px;
-    background-color: #8ECAE6;
+    background-color: #ffffff;
     border-radius: 15px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,17 +47,25 @@ div.menu{
 div.button{
     height: 50px;
     width: 250px;
-    background-color: #F0EEEE;
+    background-color: #3a0ca3;
     border-radius: 100px;
     margin: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items:center;
-    
+}
+
+div.button:hover{
+    background-color: #000814;
 }
 div.button h1{
     font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+div.menu h2{
+    margin: 15px;
 }
 
 /* NAV BAR */
@@ -56,7 +73,7 @@ div.button h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #023047;
+    background-color: #3a86ff;
     color: white;
     padding: 15px;
   }
@@ -67,7 +84,7 @@ div.button h1{
   }
   
   .brand-title h1 {
-    font-size: 12px;
+    font-size: 16px;
   }
   
   .navbar-links ul {
@@ -88,7 +105,7 @@ div.button h1{
   }
   
   .navbar-links li:hover {
-    background-color: #555;
+    text-decoration: underline;
   }
   
   .toggle-button {
@@ -110,6 +127,10 @@ div.button h1{
   }
 
   @media (max-width: 600px) {
+    div.menu{
+        width: 80vw;
+        height: 30vh;
+    }
     .toggle-button {
         display: flex;
       }
