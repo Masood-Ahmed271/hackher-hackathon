@@ -8,6 +8,15 @@ body{
   background-color: #F5F5F5;
 }
 
+.newFonts{
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.newfonts2{
+  font-weight: bold !important;
+}
+
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -23,6 +32,8 @@ h2{
 }
 h4{
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
 }
 
 /*LOGIN*/
