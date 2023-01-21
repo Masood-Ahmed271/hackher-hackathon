@@ -19,7 +19,8 @@ toggle.addEventListener("click" , () =>{
 })
 
 //  *********** For Dashboard Specifically Ends Here *******************
-
+var w = window.innerWidth;
+var h = window.innerHeight;
 
 // Login Function at the moment
 function login(){
