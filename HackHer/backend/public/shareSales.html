@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/styleRegister.css" />
+    <script src="./javascripts/getData.js"></script>
+</head>
+
+<body class="addBackground">
+    <div class="navBar">
+        <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="loginPage.html">Login</a></li>
+            <li class="nav"><a href="shareSales.html">Share Sales</a></li>
+            <li class="nav"><a href="map.html">Find Sales</a></li>
+            <li class="nav"><a href=" ">Settings</a></li>
+            <li class="nav"><a href="registrationPage.html">Register</a></li>
+        </ul>
+    </div>
+
+
+    <div class="branding">
+        <img id="logoimage" src="./images/Logo.png" />
+        <h1 class="title">Graze</h1>
+    </div>
+
+
+    <div class="RegistrationBox">
+        <h1 id="signup">Share a Sale?</h1>
+        <p>Contribute to Graze by sharing your experience with food pricing today.</p>
+
+        <div class="UsernameBox">
+            <div class="entryTitle">
+                <h4>Food Item</h3>
+            </div>
+            <input type="text" id="username" placeholder="ex. Whole grain bread" />
+        </div>
+
+        <div class="EmailBox">
+            <div class="entryTitle">
+                <h4>Store Location</h3>
+                    <div class="dropdown">
+                        <button class="dropbtn">Select a store</button>
+                        <div class="dropdown-content">
+                            <a onClick="changeText1('Metro')" id="metro" href="#">Downtown Metro</a>
+                            <a onClick="changeText1('Costco')" id="costco" href="#">Costco</a>
+                            <a onClick="changeText1('Loblaws')" id="loblaws" href="#">Loblaws</a>
+                            <a onClick="changeText1('Food Basics')" id="foodbasics" href="#">Food Basics</a>
+                            <a onClick="changeText1('Giant Tiger')" id="gianttiger" href="#">Giant Tiger</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="PasswordBox">
+            <div class="entryTitle">
+                <h4>Price</h3>
+            </div>
+            <input type="text" id="password" placeholder="$XX.XX" />
+        </div>
+
+        <div class="PasswordBox">
+            <div class="entryTitle">
+                <h4>Was this a sale?</h3>
+            </div>
+
+            <input type="text" id="sale" placeholder="Yes/No" />
+        </div>
+
+        <div class="signUpButton" id="shareButton">
+            <button>Share Now</button>
+        </div>
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>
