@@ -16,18 +16,79 @@ body{
 /* ///////////////////// */
 
 
+div.container{
+    display: flex;
+    justify-content: center;
+}
+div.menu{
+    height: 300px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 0.75rem rgb(91, 91, 91));
+}
 
+div.button{
+    height: 50px;
+    width: 250px;
+    background-color: #3a0ca3;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+}
+
+div.button:hover{
+    background-color: #000814;
+}
+div.button h1{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+div.menu h2{
+    margin: 15px;
+}
 
 
 /* Login-page  and Registration page specific starts below */
-.navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #023047;
-        color: white;
-        padding: 30px;
-}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023047;
+    color: white;
+    padding: 15px;
+  }
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block
+  }
+  
+  .navbar-links li:hover {
+    background-color: #555;
+  }
 .bottombar{
     position: fixed;
     z-index: 100; 
@@ -41,6 +102,24 @@ body{
     color: white;
     padding: 30px;
 }
+
+.toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
 body.loginpage{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#0C90AD;
