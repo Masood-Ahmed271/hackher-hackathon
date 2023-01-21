@@ -19,21 +19,19 @@ toggle.addEventListener("click" , () =>{
 })
 
 //  *********** For Dashboard Specifically Ends Here *******************
-var w = window.innerWidth;
-var h = window.innerHeight;
+
 
 // Login Function at the moment
 function login(){
-    let email = document.getElementById("email");
+    let username = document.getElementById("username");
     let password = document.getElementById("password");
-    if (email.value == "mangimasood2000@gmail.com" && password.value=="1234check"){
-        window.location.href = "Dashboard.html";
+    if (email.value == "graze123" && password.value=="itworks"){
+        window.location.href = "map.html";
     }
     else{
         alert("Wrong Credentials");
     }
 }
-
 
 //  A function to redirect the signUp button
 // Signup button underdevelopment 
