@@ -1,4 +1,5 @@
 /* Google Font Import - Poppins */
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
@@ -9,14 +10,17 @@
 
 :root{
     /* ===== Colors ===== */
+    /*
     --body-color: #E4E9F7;
     --sidebar-color:#0C90AD;
     --primary-color: #E9E7E7;
     /* --primary-color-light: #F6F5FF; */
+    /*
     --toggle-color: #DDD;
     --text-color: white;
 
     /* ====== Transition ====== */
+    /*
     --tran-03: all 0.2s ease;
     --tran-03: all 0.3s ease;
     --tran-04: all 0.3s ease;
@@ -26,10 +30,12 @@
 body{
     min-height: 100vh;
     /* background-color: var(--body-color); */
+    /*
     transition: var(--tran-05);
 }
 
 /* ===== Sidebar ===== */
+/*
  .sidebar{
     position: fixed;
     top: 0;
@@ -46,6 +52,7 @@ body{
 }
 
 /* ===== Reusable code - Here ===== */
+/*
 .sidebar li{
     height: 50px;
     list-style: none;
@@ -86,7 +93,7 @@ body{
     opacity: 0;
 }
 /* =========================== */
-
+/*
 .sidebar header{
     position: relative;
 }
@@ -228,7 +235,7 @@ header .image-text .profession{
 
 
 /* Footer (Start)*/
-
+/*
 .footer-container{
     padding: 20px 0px;
     background: #C4C4C4;
@@ -275,7 +282,7 @@ header .image-text .profession{
 
 /* Footer (Ends)*/
 
-
+/*
 
 a, a:hover{
     text-decoration: none;
@@ -356,6 +363,7 @@ a, a:hover{
 }
 
 /* For making bannersresponisve (start) */
+/*
 @media screen and (max-width: 868px){
 	.banner{
         height: 160px;
@@ -370,6 +378,7 @@ a, a:hover{
 
 
 /* Cards Start */
+/*
 .wrapper{
 	width: 100%;
 	height: 60%;
@@ -428,6 +437,7 @@ a, a:hover{
 
 
 /* Search box starts here */
+/*
 .searchbox{
     position: absolute;
     top:100px;
@@ -473,6 +483,7 @@ a, a:hover{
 /* Search Box ends */
 
 /* For making univeristy name cards responisve (start) */
+/*
 @media screen and (max-width: 1024px){
 	.cards_wrap .card_item{
 		width: 33%;
@@ -525,6 +536,7 @@ a, a:hover{
 /* For making univeristy name cards responisve (end) */
 
 /* especiallyy for mobile devices */
+/*
 @media screen and (max-width: 480px){
 	.banner{
         height: 250px;
