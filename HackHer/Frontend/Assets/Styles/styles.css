@@ -20,11 +20,26 @@ body{
 
 
 /* Login-page  and Registration page specific starts below */
-#navbar{  
-    background-color: rgb(1, 7, 113);
-    width: vw;
-    height: 100 px; 
-
+.navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #023047;
+        color: white;
+        padding: 30px;
+}
+.bottombar{
+    position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023047;
+    color: white;
+    padding: 30px;
 }
 body.loginpage{
     font-family: Arial, Helvetica, sans-serif;
