@@ -1,4 +1,4 @@
-.addBackground{
+.addBackground {
   background: url("background.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -55,6 +55,11 @@ a {
 
 .branding {
   justify-content: center;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 24%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   text-align: center;
   display: flex;
   margin-top: 50px;
@@ -64,12 +69,14 @@ a {
 }
 
 .title {
-  margin-top: 25px;
-  color: rgb(32, 45, 132);
+  margin-top: 28px;
+  margin-right: 27px;
+  font-size: 30px;
+  color: rgb(38, 39, 47);
 }
 
 #logoimage {
-  width: 8%;
+  width: 20%;
 }
 
 .RegistrationBox {
@@ -87,6 +94,9 @@ a {
 
 .entryTitle {
   margin-right: 180px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 20%;
 }
 #signup {
   text-align: center;
@@ -98,12 +108,12 @@ a {
   margin-right: 110px;
   margin-bottom: -20px;
 }
+
 input {
-  margin-top: 12px;
-  padding-top: 10px;
+  margin-top: 22px;
+  width: 67%;
+  height: 43px;
   padding-bottom: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .signUpButton {
@@ -130,8 +140,8 @@ button {
 .dropbtn {
   background-color: rgba(40, 105, 171, 0.713);
   color: white;
-  margin-left: 20px;
   width: 150px;
+  margin-left: -15px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -148,7 +158,6 @@ button {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  margin-left: 30px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
