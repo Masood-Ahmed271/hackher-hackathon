@@ -242,7 +242,6 @@ div.menu h2{
   }
   div.menu{
       width: 80vw;
-      height: 30vh;
   }
   .toggle-button {
       display: flex;
