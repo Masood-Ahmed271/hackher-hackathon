@@ -32,7 +32,7 @@ node app.js
 Then the app would be running on 'http://localhost:8081/'
 
 # Important Note:
- While running, if some of the libraries are missing, do install them via `pip install {library-name}` or `npm install {library-name}`.
+ While running, if some of the libraries are missing, do install them via `npm install {library-name}`.
  
 # Feedback
 Pull requests are welcome. For feedback and suggestions, please reach out to Graze.
