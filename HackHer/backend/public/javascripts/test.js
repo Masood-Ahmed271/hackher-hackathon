@@ -1,5 +1,5 @@
 "use strict";
-console.log("hello");
+
 let event2 = JSON.parse(localStorage.getItem("foodEntry"));
 console.log(event2);
 
