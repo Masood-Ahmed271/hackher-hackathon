@@ -17,12 +17,17 @@ let entry;
 //document.querySelector("#share")
 
 const createInput = function () {
+  //create new user entry object
   let food = document.querySelector("#username").value;
   let store = document.querySelector(".dropbtn").textContent;
   let price = document.querySelector("#password").value;
   let sale = document.querySelector("#sale").value;
   entry = new userEntry(food, store, price, sale, entry);
   console.log(entry);
+
+  //local storage convert object to string
+  localStorage.setItem("foodEntry", JSON.stringify(entry));
+  console.log(localStorage);
 };
 
 let user;
