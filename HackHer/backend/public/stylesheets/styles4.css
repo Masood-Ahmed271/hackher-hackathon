@@ -272,6 +272,9 @@ div.menu h2 {
     display: none;
     width: 100%;
   }
+  #intro {
+    color: black;
+  }
 
   .navbar {
     flex-direction: column;

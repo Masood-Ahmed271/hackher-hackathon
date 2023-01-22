@@ -4,7 +4,7 @@ let event2 = JSON.parse(localStorage.getItem("foodEntry"));
 console.log(event2);
 
 document.querySelector("#location").textContent = event2.store;
-document.querySelector(".price").value = event2.price;
+document.querySelector(".price").textContent = `$${event2.price}`;
 if (event2.sale === "yes") {
   document.querySelector("#sale").textContent = "NEW SALE! ✅";
   document.querySelector(
